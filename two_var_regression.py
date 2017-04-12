@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 #read data
-dataframe = pd.read_csv('bmi_and_life_expectancy.csv')
+dataframe = pd.read_csv('data/bmi_and_life_expectancy.csv')
 x_values = dataframe[['BMI']] #training data
 y_values = dataframe[['Life expectancy']] #target values
 

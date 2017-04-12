@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 #import data
-dataframe = pd.read_csv('challenge_dataset.csv')
+dataframe = pd.read_csv('data/challenge_dataset.csv')
 x_values = dataframe[['x']]
 y_values = dataframe[['y']]
 
